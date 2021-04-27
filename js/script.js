@@ -1,17 +1,15 @@
-let form = document.querySelector(".js-form");
-let amount = document.querySelector(".js-amount");
-let result = document.querySelector(".js-result");
+console.log("Witaj Przybyszu! :)");
 
-form.addEventListener("submit", (event) => {
-    event.preventDefault();
+let main__button = document.querySelector(".main__button");
+let main__firstHeader = document.querySelector(".main__firstHeader");
+let main__changedHeader = document.querySelector(".main__changedHeader");
 
+main__button.addEventListener("click", () => {
+  main__firstHeader.classList.toggle("main__newHeader");
 
-    let eur = 4.56;
-    let pln = +amount.value;
-
-
-    let finalResult = pln / eur;
-
-    console.log(finalResult);
-    result.innerText = finalResult.toFixed(2);
-})
+  if (main__firstHeader.classList.contains("main__newHeader")) {
+    main__changedHeader.innerText = "Przywróć poprzedni kolor";
+  } else {
+    main__changedHeader.innerText = "Zmień kolor nagłówka";
+  }
+});
