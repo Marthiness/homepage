@@ -1,19 +1,12 @@
-html {
-    box-sizing: border-box;
-}
-
-*, ::after, ::before {
-    box-sizing: inherit;
-}
-
-body {
-    font-family: 'Source Sans Pro', sans-serif;
-    margin: 20px;
-}
-
-.body__header {
-    text-align: center;
-    background: rgb(50, 50, 53);
-    color: white;
-    border-radius: 50px;
-}
+.body {
+    max-width: 1000px;
+    padding: 0 50px;
+    margin: 0 auto;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+  }
+  
+  .body__header {
+    text-align: left;
+    font-family: cursive;
+  }  
