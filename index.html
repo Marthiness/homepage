@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martyna Kuciara - Frontend Developer</title>
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <header class="body__header">Martyna Kuciara</header>
+    <div class="navigation">
+        <nav>
+            <ul class="navigation__unorderedList">
+                <li>
+                    <a class="navigation__headerList" href="#o-mnie">O mnie</a>
+                </li>
+                <li class="navigation__listItem">
+                    <a class="navigation__headerList" href="#hobby">Moje hobby</a>
+                </li>
+
+                <li class="navigation__listItem">
+                    <a class="navigation__headerList" href="#polecenia">Moje polecenia na <i>Netflix</i></a>
+                </li>
+                <li class="navigation__listItem">
+                    <a class="navigation__headerList" href="#kontakt">Skontaktuj się ze mną</a>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+    <main class="main">
+        <h1 class="main__firstHeader">Witaj na mojej pierwszej stronie</h1>
+        <p>
+            <button class="main__button"><span class="main__changedHeader">Zmień kolor nagłówka</span></button>
+        </p>
+        <img class="main__photo" width="200" height="200" src="images/Martyna.jpg" alt="Martyna Kuciara">
+        <section id="o-mnie">
+            <h2 class="main__heading">Kilka słów o mnie</h2>
+            <p>Mam na imię <strong>Martyna</strong>. Mam 26 lat. <br>Ukończyłam studia na Uniwersytecie Warszawskim.
+                <br>Aktualnie
+                pracuję jako opiekunka do dzieci. Lubię swoją pracę, jednak nie jest to zajęcie, które chcę praktykować
+                do
+                końca życia, dlatego zaczęłam przygodę z programowaniem i mam nadzieję, że to odmieni moje życie w ciągu
+                najbliższych dwóch lat.
+            </p>
+        </section>
+        <section id="hobby">
+            <h2 class="main__heading">Moje hobby</h2>
+            <p>W wolnym czasie lubię czytać książki, głównie samorozwojowe, ale nie tylko. Oglądam również bardzo dużo
+                filmów i
+                seriali na <i>Netflix'ie</i>, czasem gram na <i>PlayStation</i>, a od niedawna bawię się programowaniem.
+            </p>
+        </section>
+    </main>
+</body>
+<div class="container">
+    <section id="polecenia">
+        <table class="container__table">
+            <caption class="container__caption">Filmy i seriale na Netflix - moje top 4</caption>
+            <tr class="container__tableRow">
+                <th class="container__tableCell container__tableCell--bolder" scope="col">Tytuł</th>
+                <th class="container__tableCell container__tableCell--bolder" scope="col">Gatunek</th>
+                <th class="container__tableCell container__tableCell--bolder" scope="col">Twórca</th>
+                <th class="container__tableCell container__tableCell--bolder" scope="col">Rok</th>
+            </tr>
+            <tr class="container__tableRow">
+                <th class="container__tableCell container__tableCell--bolder" scope="row">Dom z Papieru</th>
+                <td class="container__tableCell" scope="row">Dreszczowiec</td>
+                <td class="container__tableCell" scope="row">Alex Pina</td>
+                <td class="container__tableCell" scope="row">2017-</td>
+                </th>
+            </tr>
+            <tr class="container__tableRow">
+                <th class="container__tableCell container__tableCell--bolder" scope="col">Sherlock</th>
+                <td class="container__tableCell" scope="col">Dramat, Kryminał</td>
+                <td class="container__tableCell" scope="col">Guy Ritchie</td>
+                <td class="container__tableCell" scope="col">2009-2017</td>
+            </tr>
+            <tr class="container__tableRow">
+                <th class="container__tableCell container__tableCell--bolder" scope="row">Sekret: Odważ się marzyć</th>
+                <td class="container__tableCell" scope="row">Romans, Dramat</td>
+                <td class="container__tableCell" scope="row">Andy Tennant</td>
+                <td class="container__tableCell" scope="row">2020</td>
+                </th>
+            </tr>
+            <tr class="container__tableRow">
+                <th class="container__tableCell container__tableCell--bolder" scope="row">Dylemat społeczny</th>
+                <td class="container__tableCell" scope="row">Dokumentalny</td>
+                <td class="container__tableCell" scope="row">Jeff Orlowski</td>
+                <td class="container__tableCell" scope="row">2020</td>
+            </tr>
+        </table>
+    </section>
+</div>
+<section class="contact" id="kontakt">
+    <h3 class="contact__heading">Kontakt</h3>
+    <ul class="contact__links">
+        <li>
+            <a class="contact__info" href="mailto:martynakuciara@martyna.com"> martynakuciara@martyna.com</a>
+        </li>
+        <li>
+            <a class="contact__info" href="tel:7218236723">7218236723</a>
+        </li>
+    </ul>
+</section>
+<footer class="footer"> Copyright &copy; 2021 Martyna Kuciara</footer>
+
+</html>

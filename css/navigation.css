@@ -1,0 +1,26 @@
+.navigation {
+    text-align: right;
+    background-color: rgba(28, 92, 92, 0.397);
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+
+.navigation__unorderedList {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.navigation__headerList {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation__headerList:hover {
+    color: tomato;
+    outline: none;
+}
+
+.navigation__listItem {
+    margin: 10px 0;
+}

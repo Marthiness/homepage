@@ -1,0 +1,26 @@
+.main__firstHeader {
+    text-align: center;
+}
+
+.main__button {
+    padding: 6px;
+    margin: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.548);
+    border-radius: 7px;
+}
+
+.main__photo {
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.main__heading {
+    background-color: rgba(146, 146, 146, 0.349);
+}
+
+.main__newHeader {
+    color: tomato;
+    font-family: monospace;
+    font-size: 35px;
+}

@@ -1,0 +1,121 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.heading {
+    background-color: rgba(146, 146, 146, 0.349);
+}
+
+.aboutMe {
+    max-width: 1000px;
+    padding: 0 50px;
+    margin: 0 auto;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+}
+
+.table {
+    font-family: "Open Sans", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.tableCell {
+    border: 2px solid #38292923;
+    padding: 20px;
+    text-align: center;
+}
+
+.tableHeader {
+    background-color: rgba(224, 198, 224, 0.671);
+    font-weight: bolder;
+}
+
+.caption {
+    font-size: 20px;
+}
+
+.tableRow:nth-child(even) {
+    background: #eee;
+}
+
+.tableRow:hover {
+    background-color: #4a405038;
+}
+
+.container {
+    overflow-x: auto;
+}
+
+.header {
+    text-align: left;
+    font-family: cursive
+}
+
+.footer {
+    font-size: 12px;
+}
+
+.unorderedList {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.navigation {
+    text-align: right;
+    background-color: rgba(28, 92, 92, 0.397);
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+.listItem {
+    margin: 10px 0;
+}
+
+.contact {
+    text-decoration: none;
+    background-color: rgba(51, 54, 58, 0.767);
+    color: white;
+}
+
+.headerList {
+    text-decoration: none;
+    color: black;
+}
+
+.headerList:hover {
+    color: tomato;
+    outline: none;
+}
+
+.links {
+    list-style-type: none;
+}
+
+.newHeader {
+    color: tomato;
+    font-family: monospace;
+    font-size: 35px;
+}
+
+.pushButton {
+    padding: 6px;
+    margin: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.548);
+    border-radius: 7px;
+}
+
+.photo {
+    border-radius: 50%;
+}
+
+.firstHeader {
+    text-align: center;
+}
