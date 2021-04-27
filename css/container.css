@@ -1,4 +1,33 @@
-
 .container {
+    overflow-x: auto;
+  }
+  
+  .container__table {
+    font-family: "Open Sans", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    vertical-align: middle;
+  }
+  
+  .container__caption {
+    font-size: 20px;
+  }
+  
+  .container__tableCell--bolder {
+    background-color: rgba(224, 198, 224, 0.473);
+    font-weight: bolder;
+  }
+  
+  .container__tableRow:nth-child(even) {
+    background: #eee;
+  }
+  
+  .container__tableRow:hover {
+    background-color: #4a405038;
+  }
+  
+  .container__tableCell {
+    border: 2px solid #38292923;
+    padding: 20px;
     text-align: center;
-}
+  }
