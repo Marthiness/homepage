@@ -1,8 +1,8 @@
 console.log("Witaj Przybyszu! :)");
 
-let main__button = document.querySelector(".main__button");
-let main__firstHeader = document.querySelector(".main__firstHeader");
-let main__changedHeader = document.querySelector(".main__changedHeader");
+const main__button = document.querySelector(".main__button");
+const main__firstHeader = document.querySelector(".main__firstHeader");
+const main__changedHeader = document.querySelector(".main__changedHeader");
 
 main__button.addEventListener("click", () => {
   main__firstHeader.classList.toggle("main__newHeader");
